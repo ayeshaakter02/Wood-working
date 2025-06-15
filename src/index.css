@@ -8,8 +8,14 @@
 }
 
 @layer components{
+    body{
+        @apply bg-[#030303]
+    }
     .container {
         @apply !max-w-[1380px]
     }
     
 }
+/* bg-linear-[to-b #4b1f05, #401417, #2c111d, #180e18, #030303]; */
+
+/* bg-linear-to-t from-[rgb(3,3,3)] to-[rgb(75,31,5)]  */
