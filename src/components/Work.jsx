@@ -7,45 +7,45 @@ const Work = () => {
   const visibleItems = 3;
   const totalItems = 5;
 
-  // const images = [
-  //   { 
-  //     src: "images/furniture.webp",
-  //     title: "Furniture",
-  //     description: "VIEW GALLARY",
-  //   },
-  //   {
-  //     src: "images/figurines.webp",
-  //     title: "Figurines",
-  //     description: "VIEW GALLARY",
-  //   },
-  //   {
-  //     src: "images/decorations.webp",
-  //     title: "Decorations",
-  //     description: "VIEW GALLARY",
-  //   },
-  //   {
-  //     src: "images/relief.webp",
-  //     title: "Relief",
-  //     description: "VIEW GALLARY",
-  //   },
-  //   {
-  //     src: "images/architectural.webp",
-  //     title: "Architectural",
-  //     description: "VIEW GALLARY",
-  //   },
-  // ];
+  const images = [
+    { 
+      src: "images/furniture.webp",
+      title: "Furniture",
+      description: "VIEW GALLARY",
+    },
+    {
+      src: "images/figurines.webp",
+      title: "Figurines",
+      description: "VIEW GALLARY",
+    },
+    {
+      src: "images/decorations.webp",
+      title: "Decorations",
+      description: "VIEW GALLARY",
+    },
+    {
+      src: "images/relief.webp",
+      title: "Relief",
+      description: "VIEW GALLARY",
+    },
+    {
+      src: "images/architectural.webp",
+      title: "Architectural",
+      description: "VIEW GALLARY",
+    },
+  ];
 
-  // const nextSlide = () => {
-  //   setCurrentIndex((prev) =>
-  //     prev < totalItems - visibleItems ? prev + 1 : 0
-  //   );
-  // };
+  const nextSlide = () => {
+    setCurrentIndex((prev) =>
+      prev < totalItems - visibleItems ? prev + 1 : 0
+    );
+  };
 
-  // const prevSlide = () => {
-  //   setCurrentIndex((prev) =>
-  //     prev > 0 ? prev - 1 : totalItems - visibleItems
-  //   );
-  // };
+  const prevSlide = () => {
+    setCurrentIndex((prev) =>
+      prev > 0 ? prev - 1 : totalItems - visibleItems
+    );
+  };
 
   // useEffect(() => {
   //   const slider = sliderRef.current;
