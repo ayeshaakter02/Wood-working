@@ -82,7 +82,7 @@ const Work = () => {
       </div>
 
       {/* Navigation Buttons */}
-      {/* <button
+      <button
         onClick={prevSlide}
         className="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white px-3 py-2 rounded-full z-10"
       >
@@ -93,7 +93,7 @@ const Work = () => {
         className="absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white px-3 py-2 rounded-full z-10"
       >
         ❯
-      </button> */}
+      </button>
     </div>
   );
 };
