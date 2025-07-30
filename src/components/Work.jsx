@@ -47,21 +47,21 @@ const Work = () => {
     );
   };
 
-  // useEffect(() => {
-  //   const slider = sliderRef.current;
-  //   const itemWidth = slider.offsetWidth / visibleItems;
-  //   slider.scrollTo({
-  //     left: currentIndex * itemWidth,
-  //     behavior: "smooth",
-  //   });
-  // }, [currentIndex]);
+  useEffect(() => {
+    const slider = sliderRef.current;
+    const itemWidth = slider.offsetWidth / visibleItems;
+    slider.scrollTo({
+      left: currentIndex * itemWidth,
+      behavior: "smooth",
+    });
+  }, [currentIndex]);
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     nextSlide();
-  //   }, 3000);
-  //   return () => clearInterval(interval);
-  // }, []);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextSlide();
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="relative w-full  mx-auto overflow-hidden">
