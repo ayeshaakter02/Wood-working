@@ -68,7 +68,7 @@ const Work = () => {
       <div ref={sliderRef} className="flex overflow-hidden scroll-smooth">
         {images.map((item, index) => (
           <div>
-          {/* <div key={index} className="w-1/3 flex-shrink-0 py-2">
+          <div key={index} className="w-1/3 flex-shrink-0 py-2">
             <div className="w-[600px] h-[714px] bg-linear-to-t from-[#030303] to-[#382013] m-5 py-12 px-15 rounded-xl border border-[#382013] shadow-lg overflow-hidden">
               <img src={item.src} alt={item.title} className="mx-auto"/>
               <div >
@@ -76,7 +76,7 @@ const Work = () => {
                 <p className="text-sm text-[#ffa86a] font-semibold tracking-[1px] leading-[60px] flex justify-center align-top font-inter">{item.description}</p>
               </div>
             </div>
-          </div> */}
+          </div>
           </div>
         ))}
       </div>
