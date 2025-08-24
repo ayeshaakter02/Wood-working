@@ -69,7 +69,7 @@ const Work = () => {
         {images.map((item, index) => (
           <div>
           <div key={index} className="w-1/3 flex-shrink-0 py-2">
-            <div className="w-[600px] h-[714px] bg-linear-to-t from-[#030303] to-[#382013] m-5 py-12 px-15 rounded-xl border border-[#382013] shadow-lg overflow-hidden">
+            <div className="w-[600px] h-[714px] bg-linear-to-t from-[#030303] to-[#ffa86a59] m-5 py-12 px-15 rounded-xl border border-[#382013] shadow-lg overflow-hidden">
               <img src={item.src} alt={item.title} className="mx-auto"/>
               <div >
                 <h3 className=" text-white font-forum font-normal text-[67px] tracking-[-3px] leading-[75px] flex justify-center py-1.5 -mt-5 hover:text-[#ffa86a]">{item.title}</h3>

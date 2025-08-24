@@ -4,6 +4,7 @@ import Banner from './components/Banner'
 import About from './components/About'
 import Work from './components/Work'
 import ImageSlider from './components/Work'
+import Happy from './components/Happy'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Banner/>
       <About/>
       <Work/>
+      <Happy/>
     </div>
   )
 }
