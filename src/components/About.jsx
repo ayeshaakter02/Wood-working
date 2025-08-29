@@ -19,7 +19,7 @@ const About = () => {
               figurines, furniture, and decorations.{" "}
             </p>
             <div className="flex items-center">
-              <button className="text-[rgb(219,207,190)] font-inter text-[15px] uppercase font-medium leading-[90px] tracking-[1px] hover:text-[#ffa86a]">view my work</button>
+              <button className="text-[rgb(219,207,190)] font-inter text-[16px] uppercase font-semibold leading-[90px] tracking-[1px] hover:text-[#ffa86a]">view my work</button>
               <div className="-ml-4 w-[90px] h-[90px] rounded-full border border-[#ffffff4f] flex justify-center items-center">
                 <HiOutlineArrowRight className="w-[35px] h-[35px] text-[#ffa86a] "/>
               </div>

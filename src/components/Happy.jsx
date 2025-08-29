@@ -1,4 +1,5 @@
 import React from "react";
+import { HiOutlineArrowRight } from "react-icons/hi2";
 
 const Happy = () => {
   return (
@@ -8,7 +9,7 @@ const Happy = () => {
           Happy Customers
         </h1>
         <div className="flex">
-          <div className="mt-20 grid grid-cols-2 gap-[30px]">
+          <div className="mt-20 grid grid-cols-2 gap-[25px]">
             <div className="w-[357px] h-[292px] mt-3 rounded-xl border border-[#382013] p-8 backdrop-blur-md">
               <p className="font-Manrope text-lg font-normal text-white leading-7 mb-5">
                 "I ordered a Darth Vader bust from this wood carving business
@@ -79,8 +80,16 @@ const Happy = () => {
             </div>
           </div>
         </div>
+        <div className="flex items-center mt-20">
+          <button className="text-[rgb(219,207,190)] font-inter text-[16px] uppercase font-semibold leading-[90px] tracking-[1px] hover:text-[#ffa86a]">
+            start an order
+          </button>
+          <div className="-ml-4 w-[90px] h-[90px] rounded-full border border-[#ffffff4f] flex justify-center items-center">
+            <HiOutlineArrowRight className="w-[35px] h-[35px] text-[#ffa86a] " />
+          </div>
+        </div>
       </div>
-      <div className="-mt-150 ml-225">
+      <div className="-mt-165 ml-225">
         <img src="images/lion.png" alt="" />
       </div>
     </div>
