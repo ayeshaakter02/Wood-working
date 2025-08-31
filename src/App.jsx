@@ -19,7 +19,6 @@ const App = () => {
       <Happy/>
       <Exhibition/>
       <Footer/>
-      <CircleText/>
     </div>
   )
 }

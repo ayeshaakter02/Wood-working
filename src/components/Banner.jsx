@@ -43,7 +43,7 @@ const Banner = () => {
                         key={index}
                         className="absolute left-1/2 top-1/2 text-[#d6d4c880] font-bold text-sm font-forum"
                         style={{
-                          transform: `rotate(${angle}deg) translate(80px) rotate(-${angle}deg)`,
+                          transform: `rotate(${angle}deg) translate(85px) rotate(-${angle}deg)`,
                           transformOrigin: "center center",
                         }}
                       >
