@@ -55,10 +55,10 @@ const Exhibition = () => {
                   onMouseLeave={() => setActiveIndex(null)}
                 >
                   {item.text}
+                  <p className="font-inter text-[20px] font-normal text-[#ffa86a] leading-15 cursor-pointer border-b border-[#ffa86a] pb-[35px]">
+                    22 March 2023 - 25 March 2023
+                  </p>
                 </h2>
-                <p className="font-inter text-[20px] font-normal text-[#ffa86a] leading-15 cursor-pointer border-b border-[#ffa86a] pb-[35px]">
-                  22 March 2023 - 25 March 2023
-                </p>
               </div>
             ))}
           </div>
