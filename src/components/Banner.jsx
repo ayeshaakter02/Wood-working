@@ -5,6 +5,9 @@ import { FaInstagram } from "react-icons/fa";
 import { FaDribbble } from "react-icons/fa";
 
 const Banner = () => {
+  const text = "SCROLL DOWN SCROLL DOWN SCROLL DOWN ";
+  const letters = text.split("");
+
   return (
     <div className="bg-linear-to-t from-[#030303] to-[#382013] h-screen w-full ">
       <div className="container mx-auto px-[110px]">
@@ -28,7 +31,28 @@ const Banner = () => {
               alt=""
             />
             <div className="w-30 h-30 rounded-full bg-[#ffa86a] mt-170 flex justify-center items-center  ">
-              <LiaArrowDownSolid className="w-[50px] h-[50px]" />
+              <div className="relative w-[100px] h-[100px] flex items-center justify-center">
+                <LiaArrowDownSolid className="w-[50px] h-[50px]" />
+
+                {/* Circular Text */}
+                <div className="absolute w-full h-full animate-spin-slow">
+                  {letters.map((char, index) => {
+                    const angle = (360 / letters.length) * index;
+                    return (
+                      <span
+                        key={index}
+                        className="absolute left-1/2 top-1/2 text-[#d6d4c880] font-bold text-sm font-forum"
+                        style={{
+                          transform: `rotate(${angle}deg) translate(80px) rotate(-${angle}deg)`,
+                          transformOrigin: "center center",
+                        }}
+                      >
+                        {char}
+                      </span>
+                    );
+                  })}
+                </div>
+              </div>
             </div>
             <div className="text-white text-[20px] leading-11.5 font-normal ml-120 -mt-20">
               <TfiFacebook className="hover:text-[#ffa86a]" />
@@ -49,3 +73,6 @@ const Banner = () => {
 };
 
 export default Banner;
+{
+  /* <LiaArrowDownSolid className="w-[50px] h-[50px]" /> */
+}

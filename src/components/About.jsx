@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { HiOutlineArrowRight } from "react-icons/hi2";
-
 const About = () => {
+  const [hovered, setHovered] = useState(false);
   return (
     <div className="bg-[#030303]">
       <div className="container mt-40 mx-auto py-20 px-[110px]">
@@ -19,10 +19,25 @@ const About = () => {
               figurines, furniture, and decorations.{" "}
             </p>
             <div className="flex items-center">
-              <button className="text-[rgb(219,207,190)] font-inter text-[16px] uppercase font-semibold leading-[90px] tracking-[1px] hover:text-[#ffa86a]">view my work</button>
+              <button className="text-[rgb(219,207,190)] font-inter text-[16px] uppercase font-semibold leading-[90px] tracking-[1px] hover:text-[#ffa86a]">
+                view my work
+              </button>
               <div className="-ml-4 w-[90px] h-[90px] rounded-full border border-[#ffffff4f] flex justify-center items-center">
-                <HiOutlineArrowRight className="w-[35px] h-[35px] text-[#ffa86a] "/>
+                <div
+                  className="flex items-center gap-2 text-xl font-semibold cursor-pointer w-fit transition-colors duration-300"
+                  onMouseEnter={() => setHovered(true)}
+                  onMouseLeave={() => setHovered(false)}
+                >
+                  <span
+                    className={`inline-block transform transition-transform duration-300 ${
+                      hovered ? "rotate-90" : "rotate-0"
+                    }`}
+                  >
+                    <HiOutlineArrowRight className="w-[35px] h-[55px] text-[#ffa86a]" />
+                  </span>
+                </div>
               </div>
+              
             </div>
           </div>
         </div>

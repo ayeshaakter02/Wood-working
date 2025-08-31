@@ -7,6 +7,7 @@ import ImageSlider from './components/Work'
 import Happy from './components/Happy'
 import Exhibition from './components/Exhibition'
 import Footer from './components/Footer'
+import CircleText from './components/CircleText'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Happy/>
       <Exhibition/>
       <Footer/>
+      <CircleText/>
     </div>
   )
 }

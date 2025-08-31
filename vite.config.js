@@ -6,3 +6,13 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
 })
+
+module.exports = {
+  theme: {
+    extend: {
+      animation: {
+        "spin-slow": "spin 12s linear infinite",
+      },
+    },
+  },
+};
