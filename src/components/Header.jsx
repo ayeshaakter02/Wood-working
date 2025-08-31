@@ -21,10 +21,10 @@ const Header = () => {
             </li>
           </ul>
           <div className="flex left-full -ml-110 items-center relative">
-            <button className="text-[#d6d4c8] font-medium uppercase">
+            <button className="text-[#d6d4c8] font-medium uppercase hover:text-[#ffa86a]">
               say hello
             </button>
-            <div className="w-[65px] h-[65px] rounded-full absolute ml-[55px] border border-[#ffffff4f]"></div>
+            <div className="w-[65px] h-[65px] rounded-full absolute ml-[90px] border border-[#ffffff4f] hover:w-0 hover:h-0 -translate-x-1/2 duration-500"></div>
           </div>
         </div>
       </nav>
