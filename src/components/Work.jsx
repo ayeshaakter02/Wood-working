@@ -64,7 +64,7 @@ const Work = () => {
   }, []);
 
   return (
-    <div className="relative w-full  mx-auto overflow-hidden">
+    <div className="relative w-full  mx-auto overflow-hidden" id="work">
       <div ref={sliderRef} className="flex overflow-hidden scroll-smooth">
         {images.map((item, index) => (
           <div>

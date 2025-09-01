@@ -1,24 +1,31 @@
 import React from 'react'
-import Header from './components/Header'
-import Banner from './components/Banner'
-import About from './components/About'
-import Work from './components/Work'
-import ImageSlider from './components/Work'
-import Happy from './components/Happy'
-import Exhibition from './components/Exhibition'
-import Footer from './components/Footer'
-import CircleText from './components/CircleText'
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router";
+import Home from './pages/Home';
+
+const router =createBrowserRouter([
+  {
+    path: "/",
+    Component: Home,
+  },
+  // {
+  //   path: "/signup",
+  //   Component: Signup,
+  // },
+  // {
+  //   path: "*",
+  //   Component: Not_found,
+  // }
+]);
 
 const App = () => {
   return (
     <div>
-      <Header/>
-      <Banner/>
-      <About/>
-      <Work/>
-      <Happy/>
-      <Exhibition/>
-      <Footer/>
+      <>
+    <RouterProvider router={router} />
+    </>
     </div>
   )
 }

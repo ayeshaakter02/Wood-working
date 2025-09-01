@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 const Header = () => {
   return (
@@ -11,13 +12,13 @@ const Header = () => {
 
           <ul className="flex text-left leading-[50px]  tracking-[1px] font-medium text-[15px] cursor-pointer pr-[110px] pl-92.5 z-1">
             <li className="text-[#d6d4c880] hover:text-[#ffa86a]">
-              <a href="#">ABOUT</a>
+              <a href="#about">ABOUT</a>
             </li>
             <li className="mx-[45px] text-[#d6d4c880] hover:text-[#ffa86a]">
-              <a href="#">WORK</a>
+              <a href="#work">WORK</a>
             </li>
             <li className="text-[#d6d4c880] hover:text-[#ffa86a]">
-              <a href="#">EXHIBITIONS</a>
+              <a href="#exibiton">EXHIBITIONS</a>
             </li>
           </ul>
           <div className="flex left-full -ml-110 items-center relative">

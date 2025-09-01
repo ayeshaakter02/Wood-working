@@ -21,7 +21,7 @@ const Exhibition = () => {
   ];
 
   return (
-    <div className="bg-[#030303] pb-75">
+    <div className="bg-[#030303] pb-75" id="exibiton">
       <div className="container mt-3 mx-auto px-[110px]">
         <h1 className="font-forum font-normal text-[#fffdee] leading-22.5 -tracking-[2px] text-[90px] pt-50 pb-22.5">
           Exhibitions & Events

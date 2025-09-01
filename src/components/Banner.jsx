@@ -32,7 +32,8 @@ const Banner = () => {
             />
             <div className="w-30 h-30 rounded-full bg-[#ffa86a] mt-170 flex justify-center items-center  ">
               <div className="relative w-[100px] h-[100px] flex items-center justify-center">
-                <LiaArrowDownSolid className="w-[50px] h-[50px]" />
+                <a href="#about"><LiaArrowDownSolid className="w-[50px] h-[50px]" /></a>
+                
 
                 {/* Circular Text */}
                 <div className="absolute w-full h-full animate-spin-slow">

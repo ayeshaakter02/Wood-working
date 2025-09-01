@@ -3,7 +3,7 @@ import { HiOutlineArrowRight } from "react-icons/hi2";
 const About = () => {
   const [hovered, setHovered] = useState(false);
   return (
-    <div className="bg-[#030303]">
+    <div className="bg-[#030303]" id="about">
       <div className="container mt-40 mx-auto py-20 px-[110px]">
         <div className="flex">
           <img src="images/about-man.webp" alt="" />
@@ -22,7 +22,8 @@ const About = () => {
               <button className="text-[rgb(219,207,190)] font-inter text-[16px] uppercase font-semibold leading-[90px] tracking-[1px] hover:text-[#ffa86a]">
                 view my work
               </button>
-              <div className="-ml-4 w-[90px] h-[90px] rounded-full border border-[#ffffff4f] flex justify-center items-center">
+              <a href="#work">
+                <div className="-ml-4 w-[90px] h-[90px] rounded-full border border-[#ffffff4f] flex justify-center items-center">
                 <div
                   className="flex items-center gap-2 text-xl font-semibold cursor-pointer w-fit transition-colors duration-300"
                   onMouseEnter={() => setHovered(true)}
@@ -37,6 +38,8 @@ const About = () => {
                   </span>
                 </div>
               </div>
+              </a>
+              
               
             </div>
           </div>

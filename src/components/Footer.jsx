@@ -5,7 +5,7 @@ const Footer = () => {
   const text = "CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  ";
   const letters = text.split("");
   return (
-    <div className="pb-20">
+    <div className="pb-10">
       <img className="w-full h-[380px]" src="../images/footer.jpeg" alt="" />
 
       <div className="relative w-[300px] h-[300px] flex items-center justify-center -mt-38 ml-200">
@@ -52,6 +52,7 @@ const Footer = () => {
           dribbble
         </p>
       </div>
+      <div className="text-white mt-20 text-center font-forum">Copyright @2025 All rights reserved | Developed by <a className="text-[#ffa86a]" href="https://www.facebook.com/ar.badhon.71">--Ayesha</a></div>
     </div>
   );
 };
