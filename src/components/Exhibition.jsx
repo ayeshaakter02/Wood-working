@@ -27,7 +27,7 @@ const Exhibition = () => {
           Exhibitions & Events
         </h1>
         <div className="flex gap-10">
-          <div>
+          <div className="w-1/2">
             {activeIndex !== null ? (
               <img
                 src={items[activeIndex].hoverImg}
@@ -41,9 +41,9 @@ const Exhibition = () => {
                 className="w-[525px] h-[621px] object-cover rounded-lg transition-all duration-300"
               />
             )}
-            <div className="border border-[#ffa86a] rounded-[10px] w-[525px] h-[621px] -mt-148 ml-8"></div>
+            <div className="border border-[#ffa86a] rounded-[10px] w-[525px] h-[621px] -mt-148 ml-8 absolute"></div>
           </div>
-          <div className="flex flex-col gap-6 pl-10">
+          <div className="flex flex-col gap-6 pl-10 w-1/2">
             {items.map((item, index) => (
               <div>
                 <h2

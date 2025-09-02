@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="pb-10">
       <img className="w-full h-[380px]" src="../images/footer.jpeg" alt="" />
 
-      <div className="relative w-[300px] h-[300px] flex items-center justify-center -mt-38 ml-200">
+      <div className="relative w-[300px] h-[300px] flex items-center justify-center -mt-38 sm:ml-50 md:ml-100 lg:ml-150 xl:ml-200">
         <div className="absolute w-full h-full animate-spin-slow">
           {letters.map((char, index) => {
             const angle = (360 / letters.length) * index;
@@ -35,7 +35,7 @@ const Footer = () => {
           </span>
 
           {/* underline effect */}
-          <div className="h-[2px] w-40 bg-[#ffa86a] -translate-x-1/2 mt-10 ml-240 duration-500 group-hover:w-85"></div>
+          <div className="h-[2px] w-40 bg-[#ffa86a] -translate-x-1/2 mt-10 sm:ml-100 md:ml-150 lg:ml-200 xl:ml-240 duration-500 group-hover:w-85"></div>
         </div>
       ))}
       <div className="font-inter text-[15px] font-medium text-[rgb(214,212,200)] uppercase leading-[30px] tracking-[1px] text-center my-15">
