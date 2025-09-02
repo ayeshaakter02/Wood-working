@@ -10,14 +10,7 @@ const router =createBrowserRouter([
     path: "/",
     Component: Home,
   },
-  // {
-  //   path: "/signup",
-  //   Component: Signup,
-  // },
-  // {
-  //   path: "*",
-  //   Component: Not_found,
-  // }
+  
 ]);
 
 const App = () => {
