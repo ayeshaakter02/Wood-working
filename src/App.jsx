@@ -1,26 +1,110 @@
-import React from 'react'
+// import React from 'react'
+// import {
+//   createBrowserRouter,
+//   RouterProvider,
+// } from "react-router";
+// import Home from './pages/Home';
+// import Furniture from './pages/Furniture';
+// import Figurines from './pages/Figurines';
+// import Decorations from './pages/Decorations';
+// import Relief from './pages/Relief';
+// import Architectural from './pages/Architectural';
+
+// const router =createBrowserRouter([
+//   {
+//     path: "/",
+//     Component: Home,
+//   },
+//   {
+//     path: "/furniture",
+//     Component: Furniture,
+//   },
+//   {
+//     path: "/figurines",
+//     Component: Figurines,
+//   },
+//   {
+//     path: "/decorations",
+//     Component: Decorations,
+//   },
+//   {
+//     path: "/relief",
+//     Component: Relief,
+//   },
+//   {
+//     path: "/architectural",
+//     Component: Architectural,
+//   },
+  
+// ]);
+
+// const App = () => {
+//   return (
+//     <div>
+//       <>
+//     <RouterProvider router={router} />
+//     </>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+
+
+
+
+
+
+
+
+
+
+
+import React from "react";
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router";
-import Home from './pages/Home';
+import Home from "./pages/Home";
+import Furniture from "./pages/Furniture";
+import Figurines from "./pages/Figurines";
+import Decorations from "./pages/Decorations";
+import Relief from "./pages/Relief";
+import Architectural from "./pages/Architectural";
 
-const router =createBrowserRouter([
+const router = createBrowserRouter([
   {
     path: "/",
-    Component: Home,
+    element: <Home />,  // ✅ Component এর জায়গায় element ব্যবহার করো
   },
-  
+  {
+    path: "/furniture",
+    element: <Furniture />,
+  },
+  {
+    path: "/figurines",
+    element: <Figurines />,
+  },
+  {
+    path: "/decorations",
+    element: <Decorations />,
+  },
+  {
+    path: "/relief",
+    element: <Relief />,
+  },
+  {
+    path: "/architectural",
+    element: <Architectural />,
+  },
 ]);
 
 const App = () => {
   return (
-    <div>
-      <>
     <RouterProvider router={router} />
-    </>
-    </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
