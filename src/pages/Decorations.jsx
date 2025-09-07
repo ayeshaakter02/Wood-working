@@ -1,9 +1,9 @@
-// import React from 'react'
+import React from 'react'
 
-// const Decorations = () => {
-//   return (
-//     <div className='text-white'>Decorations</div>
-//   )
-// }
+const Decorations = () => {
+  return (
+    <div className='text-white'>Decorations</div>
+  )
+}
 
-// export default Decorations
+export default Decorations

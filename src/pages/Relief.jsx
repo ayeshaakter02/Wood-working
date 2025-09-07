@@ -1,9 +1,9 @@
-// import React from 'react'
+import React from 'react'
 
-// const Relief = () => {
-//   return (
-//     <div className='text-white'>Relief</div>
-//   )
-// }
+const Relief = () => {
+  return (
+    <div className='text-white'>Relief</div>
+  )
+}
 
-// export default Relief
+export default Relief

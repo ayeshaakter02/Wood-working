@@ -1,9 +1,9 @@
-// import React from 'react'
+import React from 'react'
 
-// const Figurines = () => {
-//   return (
-//     <div className='text-white'>Figurines</div>
-//   )
-// }
+const Figurines = () => {
+  return (
+    <div className='text-white'>Figurines</div>
+  )
+}
 
-// export default Figurines
+export default Figurines
