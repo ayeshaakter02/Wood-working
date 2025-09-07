@@ -73,11 +73,16 @@ import Figurines from "./pages/Figurines";
 import Decorations from "./pages/Decorations";
 import Relief from "./pages/Relief";
 import Architectural from "./pages/Architectural";
+import Work from "./components/Work";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,  // ✅ Component এর জায়গায় element ব্যবহার করো
+    element: <Home />,
+  },
+    {
+    path: "/work",
+    element: <Work />,
   },
   {
     path: "/furniture",
