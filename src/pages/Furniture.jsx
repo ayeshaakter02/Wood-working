@@ -1,23 +1,3 @@
-// import React from 'react'
-
-// const Furniture = () => {
-//   return (
-//     <div className='text-white'>
-//         <div className='flex justify-between'>
-//             <div className='w-1/2'>
-//                 <img className=' transition-[.6s] transform-[scale(1)] hover:transform-[scale(1.5)]' src="images/furniture1.webp" alt="" />
-//             </div>
-//             <div className='w-1/2'>
-//                 <img className=' transition-[.6s] transform-[scale(1)] hover:transform-[scale(1.5)]' src="images/furniture2.jpg" alt="" />
-//             </div>
-//         </div>
-
-//     </div>
-//   )
-// }
-
-// export default Furniture
-
 import React from "react";
 
 const Furniture = () => {
