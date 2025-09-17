@@ -27,7 +27,7 @@ const Furniture = () => {
             <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
               Throne
             </h1>
-            <p className="font-inter text-[15px] uppercase tracking-[6px] text-[#ffa86a]">
+            <p className="font-inter text-[15px] uppercase tracking-[2px] font-bold text-[#ffa86a]">
               request a price
             </p>
           </div>
@@ -44,7 +44,7 @@ const Furniture = () => {
             <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
               Coffee Table
             </h1>
-            <p className="font-inter text-[15px] uppercase tracking-[6px] text-[#ffa86a]">
+            <p className="font-inter text-[15px] uppercase tracking-[2px] font-bold text-[#ffa86a]">
               request a price
             </p>
           </div>
@@ -65,7 +65,7 @@ const Furniture = () => {
             <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
               Chair
             </h1>
-            <p className="font-inter text-[15px] uppercase tracking-[6px] text-[#ffa86a]">
+            <p className="font-inter text-[15px] uppercase tracking-[2px] font-bold text-[#ffa86a]">
               request a price
             </p>
           </div>
@@ -86,7 +86,7 @@ const Furniture = () => {
             <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
               Furniture Set
             </h1>
-            <p className="font-inter text-[15px] uppercase tracking-[6px] text-[#ffa86a]">request a price
+            <p className="font-inter text-[15px] uppercase tracking-[2px] font-bold text-[#ffa86a]">request a price
             </p>
           </div>
         </div>
@@ -106,7 +106,7 @@ const Furniture = () => {
             <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
               Lux Sofa
             </h1>
-            <p className="font-inter text-[15px] uppercase tracking-[6px] text-[#ffa86a]">
+            <p className="font-inter text-[15px] uppercase tracking-[2px] font-bold text-[#ffa86a]">
               request a price
             </p>
           </div>
@@ -123,7 +123,7 @@ const Furniture = () => {
             <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
               Cabinet
             </h1>
-            <p className="font-inter text-[15px] uppercase tracking-[6px] text-[#ffa86a]">
+            <p className="font-inter text-[15px] uppercase tracking-[2px] font-bold text-[#ffa86a]">
               request a price
             </p>
           </div>
