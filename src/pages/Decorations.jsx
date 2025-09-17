@@ -25,7 +25,7 @@ const Decorations = () => {
               <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
               <div className="absolute inset-0 flex flex-col items-center justify-end mb-12 opacity-0 group-hover:opacity-100 transition duration-500">
                 <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
-                  Yoda
+                  Abstract Figure
                 </h1>
                 <p className="font-inter text-[15px] uppercase tracking-[2px] font-bold text-[#ffa86a]">
                   request a price
@@ -46,7 +46,7 @@ const Decorations = () => {
               {/* Text */}
               <div className="absolute inset-0 flex flex-col items-center justify-end mb-12 opacity-0 group-hover:opacity-100 transition duration-500">
                 <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
-                  Iron Man
+                  Dragon
                 </h1>
                 <p className="font-inter text-[15px] uppercase tracking-[2px] font-bold text-[#ffa86a]">
                   request a price
@@ -59,14 +59,14 @@ const Decorations = () => {
             <div className="relative w-2/3 h-220 overflow-hidden group">
               <img
                 className="w-full h-full object-cover object-left transition-transform duration-500 ease-in-out group-hover:scale-110"
-                src="images/figurines3.jpg"
+                src="images/decorations3.webp"
                 alt="Lux Sofa"
               />
               <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
     
               <div className="absolute inset-0 flex flex-col items-center justify-end mb-12 opacity-0 group-hover:opacity-100 transition duration-500">
                 <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
-                  Batman
+                  Wall Decor
                 </h1>
                 <p className="font-inter text-[15px] uppercase tracking-[2px] font-bold text-[#ffa86a]">
                   request a price
@@ -77,13 +77,13 @@ const Decorations = () => {
             <div className="relative w-1/3 h-220 overflow-hidden group">
               <img
                 className="w-full h-full object-cover object-right transition-transform duration-500 ease-in-out group-hover:scale-110"
-                src="images/figurines4.jpg"
+                src="images/decorations4.webp"
                 alt="Cabinet"
               />
               <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
               <div className="absolute inset-0 flex flex-col items-center justify-end mb-12 opacity-0 group-hover:opacity-100 transition duration-500">
                 <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
-                  Groot
+                  Table Decor
                 </h1>
                 <p className="font-inter text-[15px] uppercase tracking-[2px] font-bold text-[#ffa86a]">
                   request a price
@@ -96,13 +96,13 @@ const Decorations = () => {
             <div className="relative w-1/2 h-220 overflow-hidden group">
               <img
                 className="w-full h-full object-cover object-left transition-transform duration-500 ease-in-out group-hover:scale-110"
-                src="images/figurines5.jpg"
+                src="images/decorations5.webp"
                 alt="Furniture Left Half"
               />
               <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
               <div className="absolute inset-0 flex flex-col items-center justify-end mb-12 opacity-0 group-hover:opacity-100 transition duration-500">
                 <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
-                  Darth Vader
+                  Decor
                 </h1>
                 <p className="font-inter text-[15px] uppercase tracking-[2px] font-bold text-[#ffa86a]">
                   request a price
@@ -113,13 +113,13 @@ const Decorations = () => {
             <div className="relative w-1/2 h-220 overflow-hidden group">
               <img
                 className="w-full h-full object-cover object-right transition-transform duration-500 ease-in-out group-hover:scale-110"
-                src="images/figurines6.jpg"
+                src="images/decorations6.webp"
                 alt="Furniture Right Half"
               />
               <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
               <div className="absolute inset-0 flex flex-col items-center justify-end mb-12 opacity-0 group-hover:opacity-100 transition duration-500">
                 <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
-                  Superman
+                  Small Bull
                 </h1>
                 <p className="font-inter text-[15px] uppercase tracking-[2px] text-[#ffa86a] font-bold">
                   request a price
