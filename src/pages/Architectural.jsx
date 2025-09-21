@@ -24,7 +24,7 @@ const Architectural = () => {
                       <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
                       <div className="absolute inset-0 flex flex-col items-center justify-end mb-12 opacity-0 group-hover:opacity-100 transition duration-500">
                         <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
-                          Nature
+                          Details
                         </h1>
                         <p className="font-inter text-[15px] uppercase tracking-[2px] font-bold text-[#ffa86a]">
                           request a price
@@ -45,7 +45,7 @@ const Architectural = () => {
                       {/* Text */}
                       <div className="absolute inset-0 flex flex-col items-center justify-end mb-12 opacity-0 group-hover:opacity-100 transition duration-500">
                         <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
-                          Faces
+                          Stairs
                         </h1>
                         <p className="font-inter text-[15px] uppercase tracking-[2px] font-bold text-[#ffa86a]">
                           request a price
@@ -65,7 +65,7 @@ const Architectural = () => {
             
                       <div className="absolute inset-0 flex flex-col items-center justify-end mb-12 opacity-0 group-hover:opacity-100 transition duration-500">
                         <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
-                          Woman
+                          Cabin
                         </h1>
                         <p className="font-inter text-[15px] uppercase tracking-[2px] font-bold text-[#ffa86a]">
                           request a price
@@ -82,7 +82,7 @@ const Architectural = () => {
                       <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
                       <div className="absolute inset-0 flex flex-col items-center justify-end mb-12 opacity-0 group-hover:opacity-100 transition duration-500">
                         <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
-                          Bird
+                          Column
                         </h1>
                         <p className="font-inter text-[15px] uppercase tracking-[2px] font-bold text-[#ffa86a]">
                           request a price
@@ -101,7 +101,7 @@ const Architectural = () => {
                       <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-700"></div>
                       <div className="absolute inset-0 flex flex-col items-center justify-end mb-12 opacity-0 group-hover:opacity-100 transition duration-500">
                         <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
-                          Seaworld
+                          Door
                         </h1>
                         <p className="font-inter text-[15px] uppercase tracking-[2px] font-bold text-[#ffa86a]">
                           request a price
@@ -118,7 +118,7 @@ const Architectural = () => {
                       <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
                       <div className="absolute inset-0 flex flex-col items-center justify-end mb-12 opacity-0 group-hover:opacity-100 transition duration-500">
                         <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
-                          Birds
+                          Ornaments
                         </h1>
                         <p className="font-inter text-[15px] uppercase tracking-[2px] text-[#ffa86a] font-bold">
                           request a price

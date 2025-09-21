@@ -131,6 +131,3 @@ const Relief = () => {
 }
 
 export default Relief
-
-
-// image and name change kora hoi ni
