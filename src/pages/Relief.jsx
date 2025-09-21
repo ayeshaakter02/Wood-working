@@ -16,15 +16,15 @@ const Relief = () => {
               <div className="flex">
                 <div className="relative w-1/3 h-220 overflow-hidden group">
                   <img
-                    className="w-full h-full object-cover object-left transition-transform duration-500 ease-in-out group-hover:scale-110"
-                    src="images/decorations1.webp"
+                    className="w-full h-full object-cover object-left transition-transform duration-700 ease-in-out group-hover:scale-110"
+                    src="images/relief1.jpg"
                     alt="Chair"
                   />
         
                   <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
                   <div className="absolute inset-0 flex flex-col items-center justify-end mb-12 opacity-0 group-hover:opacity-100 transition duration-500">
                     <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
-                      Abstract Figure
+                      Nature
                     </h1>
                     <p className="font-inter text-[15px] uppercase tracking-[2px] font-bold text-[#ffa86a]">
                       request a price
@@ -34,8 +34,8 @@ const Relief = () => {
         
                 <div className="relative w-2/3 h-220 overflow-hidden group">
                   <img
-                    className="w-full h-full object-cover object-right transition-transform duration-500 ease-in-out group-hover:scale-110"
-                    src="images/decorations2.webp"
+                    className="w-full h-full object-cover object-right"
+                    src="images/relief2.jpg"
                     alt="Furniture Set"
                   />
         
@@ -45,7 +45,7 @@ const Relief = () => {
                   {/* Text */}
                   <div className="absolute inset-0 flex flex-col items-center justify-end mb-12 opacity-0 group-hover:opacity-100 transition duration-500">
                     <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
-                      Dragon
+                      Faces
                     </h1>
                     <p className="font-inter text-[15px] uppercase tracking-[2px] font-bold text-[#ffa86a]">
                       request a price
@@ -57,15 +57,15 @@ const Relief = () => {
               <div className="flex">
                 <div className="relative w-2/3 h-220 overflow-hidden group">
                   <img
-                    className="w-full h-full object-cover object-left transition-transform duration-500 ease-in-out group-hover:scale-110"
-                    src="images/decorations3.webp"
+                    className="w-full h-full object-cover object-left"
+                    src="images/relief3.jpg"
                     alt="Lux Sofa"
                   />
                   <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
         
                   <div className="absolute inset-0 flex flex-col items-center justify-end mb-12 opacity-0 group-hover:opacity-100 transition duration-500">
                     <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
-                      Wall Decor
+                      Woman
                     </h1>
                     <p className="font-inter text-[15px] uppercase tracking-[2px] font-bold text-[#ffa86a]">
                       request a price
@@ -75,14 +75,14 @@ const Relief = () => {
         
                 <div className="relative w-1/3 h-220 overflow-hidden group">
                   <img
-                    className="w-full h-full object-cover object-right transition-transform duration-500 ease-in-out group-hover:scale-110"
-                    src="images/decorations4.webp"
+                    className="w-full h-full object-cover object-right transition-transform duration-700 ease-in-out group-hover:scale-105"
+                    src="images/relief4.jpg"
                     alt="Cabinet"
                   />
                   <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
                   <div className="absolute inset-0 flex flex-col items-center justify-end mb-12 opacity-0 group-hover:opacity-100 transition duration-500">
                     <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
-                      Table Decor
+                      Bird
                     </h1>
                     <p className="font-inter text-[15px] uppercase tracking-[2px] font-bold text-[#ffa86a]">
                       request a price
@@ -94,14 +94,14 @@ const Relief = () => {
               <div className="flex">
                 <div className="relative w-1/2 h-220 overflow-hidden group">
                   <img
-                    className="w-full h-full object-cover object-left transition-transform duration-500 ease-in-out group-hover:scale-110"
-                    src="images/decorations5.webp"
+                    className="w-full h-full object-cover object-left transition-transform duration-700 ease-in-out group-hover:scale-105"
+                    src="images/relief5.jpg"
                     alt="Furniture Left Half"
                   />
-                  <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
+                  <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-700"></div>
                   <div className="absolute inset-0 flex flex-col items-center justify-end mb-12 opacity-0 group-hover:opacity-100 transition duration-500">
                     <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
-                      Decor
+                      Seaworld
                     </h1>
                     <p className="font-inter text-[15px] uppercase tracking-[2px] font-bold text-[#ffa86a]">
                       request a price
@@ -111,14 +111,14 @@ const Relief = () => {
         
                 <div className="relative w-1/2 h-220 overflow-hidden group">
                   <img
-                    className="w-full h-full object-cover object-right transition-transform duration-500 ease-in-out group-hover:scale-110"
-                    src="images/decorations6.webp"
+                    className="w-full h-full object-cover object-right transition-transform duration-700 ease-in-out group-hover:scale-105"
+                    src="images/relief6.jpg"
                     alt="Furniture Right Half"
                   />
                   <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
                   <div className="absolute inset-0 flex flex-col items-center justify-end mb-12 opacity-0 group-hover:opacity-100 transition duration-500">
                     <h1 className="font-forum text-[70px] font-normal text-[#fffdee]">
-                      Small Bull
+                      Birds
                     </h1>
                     <p className="font-inter text-[15px] uppercase tracking-[2px] text-[#ffa86a] font-bold">
                       request a price
